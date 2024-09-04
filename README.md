@@ -16,9 +16,9 @@ data structure, however the core functionality should remain the same. In your i
 important to comment your code to highlight various design decisions and logic. 
 
 ## Testing 
-The main.cpp file provides a foundational testing framework expected for this project. Each workload* directory 
-contains two files (1) is `workload.dat` for inserts and (2) is either `point_queries.txt.` or `range_queries.txt`. 
-You are required to run the workloads, given in `workloads` directory, build the zone map, and benchmark point queries and range
+The main.cpp file provides a foundational testing framework expected for this project. Each `workloads/W*` directory 
+contains three files (1) is `workload.dat` for inserts and (2) `point_queries.txt.` and (3) `range_queries.txt`.
+You are required to run the workloads, given in `workloads` directory (change the `W[number]`), build the zone map, and benchmark point queries and range
 queries. We have already provided a simple logic to benchmark the point query. You are required to
 implement parsing the range queries from`range_queries.txt` and benchmarking the range query
 performance. The execution times are to be written either into a log file or displayed onto the terminal
